@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stein Schere Papier</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
-    <h1 id="opponent-score">0</h1>
-    <img id="opponent-choice">
-    <br>
-    <img id="your-choice">
-    <div id="choices"></div>
-    <h1 id="your-score">0</h1>
-    <div class="menu">
-        <button id="reset">Neustart</button>
+  </head>
+  <body>
+    <div class="score-container">
+      <div class="score-container-you">
+        <h1>You:</h1>
+        <h1 id="your-score">0</h1>
+      </div>
+      <div class="score-container-opponent">
+        <h2>Opponent:</h2>
+        <h2 id="opponent-score">0</h2>
+      </div>
     </div>
-</body>
+    <img id="opponent-choice" />
+    <br />
+    <img id="your-choice" />
+    <div id="choices"></div>
+    <div class="menu">
+      <button onclick="location.href='index.html'">Neustart</button>
+    </div>
+  </body>
 </html>

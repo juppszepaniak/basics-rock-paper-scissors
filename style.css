@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -6,7 +8,11 @@ body {
 #opponent-choice {
     width: 250px;
     height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+#opponent-score {
+    color: rgb(78, 78, 78);
 }
 
 #your-choice {
@@ -15,21 +21,42 @@ body {
     margin-top: 10px;
 }
 
+#your-score {
+    color: rgb(78, 78, 78);
+}
+
 #choices {
     width: 250px;
     height: 80px; /* 3 Images >> 240 / 4 = 80*/
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #choices img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    margin: 5px
+}
+
+.score-container {
+
+}
+
+.score-container-you, .score-container-opponent {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.score-container-you h1, .score-container-opponent h2 {
+    margin: 0;
 }
 
 .menu button {
     font-size: 18px;
     font-weight: bold;
+    margin-top: 20px;
     padding: 1rem 50px;
     color: white;
     background-color: rgb(107, 90, 168);
@@ -41,3 +68,4 @@ body {
     background-color: rgb(61, 48, 110);
     border: 1px solid rgb(107, 90, 168);
 }
+
