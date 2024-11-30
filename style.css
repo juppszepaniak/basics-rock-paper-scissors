@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#opponent-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#choices {
+    width: 250px;
+    height: 80px; /* 3 Images >> 240 / 4 = 80*/
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+
+.menu button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1rem 50px;
+    color: white;
+    background-color: rgb(107, 90, 168);
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.menu button:hover {
+    background-color: rgb(61, 48, 110);
+    border: 1px solid rgb(107, 90, 168);
+}
