@@ -39,7 +39,8 @@ body {
 }
 
 .score-container {
-
+    background-color: antiquewhite;
+    /* mittig der Seite --> Content soll aber linksbündig sein*/
 }
 
 .score-container-you, .score-container-opponent {
